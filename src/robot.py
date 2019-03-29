@@ -49,7 +49,6 @@ class MyRobot(CommandBasedRobot):
 
     def autonomousPeriodic(self):
         '''Called approximately every 20ms while in Autonomous Mode.'''
-        Scheduler.getInstance().run()
 
     def teleopInit(self):
         '''Initialize systems when entering Teleoperated Mode.'''
